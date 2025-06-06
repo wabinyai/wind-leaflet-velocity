@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wind visualization using Leaflet, Mapbox, and Leaflet-velocity">
+    <meta name="author" content="Your Name">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wind Visualization with Leaflet and Mapbox</title>
+
+    <!-- Leaflet CSS (latest version) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Optional: Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JS (latest version) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <!-- Leaflet-velocity JS (from CDN or local path) -->
+    <!-- Option 1: Use CDN if available -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-velocity@1.2.1/dist/leaflet-velocity.min.js"></script>
+
+    <!-- Option 2: Use local path from node_modules -->
+    <!-- <script src="./node_modules/leaflet-velocity/dist/leaflet-velocity.min.js"></script> -->
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+</html>
